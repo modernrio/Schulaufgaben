@@ -56,7 +56,7 @@ bool Frau::Heiraten(Mann* mann) {
 	SetMann(mann);
 
 	//Mann bei der Frau eintragen
-	mann->SetFrau(this, TODO);
+	mann->SetFrau(this, mann->GetTemp());
 
 
 	return true;

@@ -83,6 +83,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 01-06 Überladungen", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 02-02.1 Mann-Frau-Heirat(europäisch)", "OOP 02-02.1 Mann-Frau-Heirat(europäisch)\OOP 02-02.1 Mann-Frau-Heirat(europäisch).vcxproj", "{6F8543FF-F405-4E00-BFDF-3DDB8AAFFB77}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 02-02.1 Mann-Frau-Heirat(orientalisch)", "OOP 02-02.1 Mann-Frau-Heirat(orientalisch)\OOP 02-02.1 Mann-Frau-Heirat(orientalisch).vcxproj", "{813DF46C-3361-42F7-8859-45D1AA09B49B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 02-02.2 Kurstermin-Teilnehmer", "OOP 02-02.2 Kurstermin-Teilnehmer\OOP 02-02.2 Kurstermin-Teilnehmer.vcxproj", "{A8680C22-B30E-45BD-8730-37D95E8BE922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -249,6 +253,14 @@ Global
 		{6F8543FF-F405-4E00-BFDF-3DDB8AAFFB77}.Debug|Win32.Build.0 = Debug|Win32
 		{6F8543FF-F405-4E00-BFDF-3DDB8AAFFB77}.Release|Win32.ActiveCfg = Release|Win32
 		{6F8543FF-F405-4E00-BFDF-3DDB8AAFFB77}.Release|Win32.Build.0 = Release|Win32
+		{813DF46C-3361-42F7-8859-45D1AA09B49B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{813DF46C-3361-42F7-8859-45D1AA09B49B}.Debug|Win32.Build.0 = Debug|Win32
+		{813DF46C-3361-42F7-8859-45D1AA09B49B}.Release|Win32.ActiveCfg = Release|Win32
+		{813DF46C-3361-42F7-8859-45D1AA09B49B}.Release|Win32.Build.0 = Release|Win32
+		{A8680C22-B30E-45BD-8730-37D95E8BE922}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8680C22-B30E-45BD-8730-37D95E8BE922}.Debug|Win32.Build.0 = Debug|Win32
+		{A8680C22-B30E-45BD-8730-37D95E8BE922}.Release|Win32.ActiveCfg = Release|Win32
+		{A8680C22-B30E-45BD-8730-37D95E8BE922}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

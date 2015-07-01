@@ -24,5 +24,7 @@ private:
 	string	m_name;
 	int		m_alter;
 	bool	m_verheiratet;
-	Frau*	m_frau;
+	Frau*	m_frauen[100];
+
+	int		m_temp;
 };

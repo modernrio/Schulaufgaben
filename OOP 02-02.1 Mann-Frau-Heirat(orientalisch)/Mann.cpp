@@ -5,12 +5,14 @@ Mann::Mann() {
 	m_name = "Unbekannt";
 	m_alter = 0;
 	m_verheiratet = false;
+	m_temp = 0;
 }
 
 Mann::Mann(string name, int alter) {
 	m_name = name;
 	m_alter = alter;
 	m_verheiratet = false;
+	m_temp = 0;
 }
 
 Mann::~Mann() {
@@ -26,7 +28,7 @@ void Mann::SetAlter(int a) {
 }
 
 void Mann::SetFrau(Frau *f, int n) {
-	m_frau = f;
+	m_frauen[n] = f;
 }
 
 std::string Mann::GetName() {
@@ -39,13 +41,19 @@ int Mann::GetAlter() {
 
 Frau* Mann::GetFrau(int n)
 {
-	return m_frau;
+	return m_frauen[n];
 }
 
 bool Mann::Heiraten(Frau* frau) {
 	//Überprüfen, ob Mann oder Frau schon verheiratet
-	if (m_verheiratet || frau->IstVerheiratet()) {
+	if (frau->IstVerheiratet()) {
 		return false;
+	}
+
+	for (int i = 0; i < 100; i++) {
+		if (m_frauen[i] == frau) {
+			return false;
+		}
 	}
 
 	//Mann auf den Status "verheiratet" setzen
@@ -53,9 +61,9 @@ bool Mann::Heiraten(Frau* frau) {
 
 	//Frau auf den Status "verheiratet" setzen
 	frau->HeiratsStatus(true);
-	
+
 	//Frau beim Mann eintragen
-	SetFrau(frau);
+	SetFrau(frau, m_temp++);
 
 	//Mann bei der Frau eintragen
 	frau->SetMann(this);
@@ -66,7 +74,7 @@ bool Mann::Heiraten(Frau* frau) {
 bool Mann::Scheiden(int n)
 {
 	if (m_verheiratet) {
-		m_frau->HeiratsStatus(false);
+		m_frauen[n]->HeiratsStatus(false);
 		m_verheiratet = false;
 	}
 
@@ -82,3 +90,9 @@ void Mann::HeiratsStatus(bool status) {
 
 	return;
 }
+
+int Mann::GetTemp() {
+	return m_temp;
+}
+
+

@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 02-07.1 Zufallszahlen i
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 02-07.2 kontoarray", "OOP 02-07.2 kontoarray\OOP 02-07.2 kontoarray.vcxproj", "{52BF172B-9CBC-47C3-BF68-3A12643F13A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 03-01.1-7 Vererbung", "OOP 03-01.1-7 Vererbung\OOP 03-01.1-7 Vererbung.vcxproj", "{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -285,6 +287,10 @@ Global
 		{52BF172B-9CBC-47C3-BF68-3A12643F13A0}.Debug|Win32.Build.0 = Debug|Win32
 		{52BF172B-9CBC-47C3-BF68-3A12643F13A0}.Release|Win32.ActiveCfg = Release|Win32
 		{52BF172B-9CBC-47C3-BF68-3A12643F13A0}.Release|Win32.Build.0 = Release|Win32
+		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Debug|Win32.Build.0 = Debug|Win32
+		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Release|Win32.ActiveCfg = Release|Win32
+		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

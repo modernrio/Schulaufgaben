@@ -97,6 +97,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 02-07.2 kontoarray", "O
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 03-01.1-7 Vererbung", "OOP 03-01.1-7 Vererbung\OOP 03-01.1-7 Vererbung.vcxproj", "{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 04-01 Container", "OOP 04-01 Container\OOP 04-01 Container.vcxproj", "{97048FC8-13FD-4BD9-8BA8-28D185D95927}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP 13 Verkettete Liste", "OOP 13 Verkettete Liste\OOP 13 Verkettete Liste.vcxproj", "{8B656808-7011-43F9-A0E9-B6D320BAFCA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -291,6 +295,14 @@ Global
 		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Debug|Win32.Build.0 = Debug|Win32
 		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Release|Win32.ActiveCfg = Release|Win32
 		{BE21FBCC-44F9-406F-94CF-C1ACC52C9258}.Release|Win32.Build.0 = Release|Win32
+		{97048FC8-13FD-4BD9-8BA8-28D185D95927}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97048FC8-13FD-4BD9-8BA8-28D185D95927}.Debug|Win32.Build.0 = Debug|Win32
+		{97048FC8-13FD-4BD9-8BA8-28D185D95927}.Release|Win32.ActiveCfg = Release|Win32
+		{97048FC8-13FD-4BD9-8BA8-28D185D95927}.Release|Win32.Build.0 = Release|Win32
+		{8B656808-7011-43F9-A0E9-B6D320BAFCA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B656808-7011-43F9-A0E9-B6D320BAFCA0}.Debug|Win32.Build.0 = Debug|Win32
+		{8B656808-7011-43F9-A0E9-B6D320BAFCA0}.Release|Win32.ActiveCfg = Release|Win32
+		{8B656808-7011-43F9-A0E9-B6D320BAFCA0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
